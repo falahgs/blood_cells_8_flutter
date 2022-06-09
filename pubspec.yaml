@@ -1,0 +1,52 @@
+name: mask_thief_detetcion
+description: A new classification project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.6.7+4
+  tflite: ^1.1.1
+  path_provider: ^1.6.18
+  open_file: ^3.0.1
+  splashscreen: ^1.3.5
+  path: 
+  
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - images/
+    - icons/camera.png
+    - icons/gallery.png
+    - icons/exit.png
+    - icons/help.png
+    - icons/gratitude.png
+
+
+
+ 
